@@ -1,0 +1,24 @@
+# Core GUI and Windows System Automation
+PyAutoGUI>=0.9.54
+pywin32>=306
+pyperclip>=1.8.2
+Pillow>=10.0.0
+pyscreeze>=0.1.28
+
+# Voice (Speech-to-Text and Text-to-Speech)
+edge-tts>=7.2.8
+pyttsx3>=2.90
+SpeechRecognition>=3.10.0
+sounddevice>=0.4.6
+soundfile>=0.12.1
+numpy>=1.24.0
+
+# Optional AI LLM Integrations
+google-genai>=2.0.0
+openai>=1.0.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+
+# Browser Automation & Network
+selenium>=4.15.0
+requests>=2.31.0

@@ -1,0 +1,672 @@
+[18:58:21]
+Command:      open youtube
+Action:       Execute open_url
+Tool:         open_url {'url': 'https://www.youtube.com', 'guest_mode': True}
+Result:       Opened https://www.youtube.com in guest mode
+Verification: Action completed and verified successfully.
+----------------------------------------
+[18:59:44]
+Command:      open YouTube
+Action:       Execute open_url
+Tool:         open_url {'url': 'https://www.youtube.com', 'guest_mode': True}
+Result:       Opened https://www.youtube.com in guest mode
+Verification: Action completed and verified successfully.
+----------------------------------------
+[19:00:18]
+Command:      open Notepad
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'notepad'}
+Result:       Successfully launched notepad.
+Verification: Verified: Process 'notepad' is running.
+----------------------------------------
+[19:00:19]
+Command:      open Notepad
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'notepad'}
+Result:       Successfully launched notepad.
+Verification: Verified: Process 'notepad' is running.
+----------------------------------------
+[19:04:13]
+Command:      open YouTube
+Action:       Execute open_url
+Tool:         open_url {'url': 'https://www.youtube.com', 'guest_mode': True}
+Result:       Opened https://www.youtube.com in guest mode
+Verification: Action completed and verified successfully.
+----------------------------------------
+[19:04:44]
+Command:      YouTube open YouTube
+Action:       Execute open_url
+Tool:         open_url {'url': 'https://www.youtube.com', 'guest_mode': True}
+Result:       Opened https://www.youtube.com in guest mode
+Verification: Action completed and verified successfully.
+----------------------------------------
+[19:09:52]
+Command:      open YouTube
+Action:       Execute open_url
+Tool:         open_url {'url': 'https://www.youtube.com', 'guest_mode': True}
+Result:       Opened https://www.youtube.com in guest mode
+Verification: Action completed and verified successfully.
+----------------------------------------
+[19:10:13]
+Command:      open browser and search for about me
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'browser'}
+Result:       Successfully launched browser.
+Verification: Verification check: Process 'browser' status unconfirmed but launched.
+----------------------------------------
+[19:10:13]
+Command:      open browser and search for about me
+Action:       Execute browser_search
+Tool:         browser_search {'query': 'about me'}
+Result:       Searched Google for 'about me'
+Verification: Verified: Browser navigated to search results for 'about me'.
+----------------------------------------
+[19:10:33]
+Command:      open Wikipedia and search for AI news
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'wikipedia and search for ai news'}
+Result:       Attempted to open wikipedia and search for ai news, but the process was not detected within timeout.
+Verification: Action indicated failure during execution.
+----------------------------------------
+[19:10:37]
+Command:      open Wikipedia and search for AI news
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'wikipedia and search for ai news'}
+Result:       Attempted to open wikipedia and search for ai news, but the process was not detected within timeout.
+Verification: Action indicated failure during execution.
+----------------------------------------
+[19:10:42]
+Command:      open Wikipedia and search for AI news
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'wikipedia and search for ai news'}
+Result:       Attempted to open wikipedia and search for ai news, but the process was not detected within timeout.
+Verification: Action indicated failure during execution.
+----------------------------------------
+[19:10:55]
+Command:      open browser and search for Wikipedia
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'browser'}
+Result:       Successfully launched browser.
+Verification: Verification check: Process 'browser' status unconfirmed but launched.
+----------------------------------------
+[19:10:55]
+Command:      open browser and search for Wikipedia
+Action:       Execute browser_search
+Tool:         browser_search {'query': 'wikipedia'}
+Result:       Searched Google for 'wikipedia'
+Verification: Verified: Browser navigated to search results for 'wikipedia'.
+----------------------------------------
+[19:14:02]
+Command:      open base 44 and create a
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'base 44 and create'}
+Result:       Attempted to open base 44 and create, but the process was not detected within timeout.
+Verification: Action indicated failure during execution.
+----------------------------------------
+[19:14:07]
+Command:      open base 44 and create a
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'base 44 and create'}
+Result:       Attempted to open base 44 and create, but the process was not detected within timeout.
+Verification: Action indicated failure during execution.
+----------------------------------------
+[19:14:12]
+Command:      open base 44 and create a
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'base 44 and create'}
+Result:       Attempted to open base 44 and create, but the process was not detected within timeout.
+Verification: Action indicated failure during execution.
+----------------------------------------
+[19:17:22]
+Command:      open browser
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'browser'}
+Result:       Successfully launched browser.
+Verification: Verification check: Process 'browser' status unconfirmed but launched.
+----------------------------------------
+[19:20:32]
+Command:      open browser and search for charging PPT
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'browser'}
+Result:       Successfully launched browser.
+Verification: Verification check: Process 'browser' status unconfirmed but launched.
+----------------------------------------
+[19:20:32]
+Command:      open browser and search for charging PPT
+Action:       Execute browser_search
+Tool:         browser_search {'query': 'charging ppt'}
+Result:       Searched Google for 'charging ppt'
+Verification: Verified: Browser navigated to search results for 'charging ppt'.
+----------------------------------------
+[19:21:14]
+Command:      open browser and search for a agents
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'browser'}
+Result:       Successfully launched browser.
+Verification: Verification check: Process 'browser' status unconfirmed but launched.
+----------------------------------------
+[19:21:14]
+Command:      open browser and search for a agents
+Action:       Execute browser_search
+Tool:         browser_search {'query': 'a agents'}
+Result:       Searched Google for 'a agents'
+Verification: Verified: Browser navigated to search results for 'a agents'.
+----------------------------------------
+[20:42:13]
+Command:      Jarvis open browser and search for YouTube
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'browser'}
+Result:       Successfully launched browser.
+Verification: Verification check: Process 'browser' status unconfirmed but launched.
+----------------------------------------
+[20:42:13]
+Command:      Jarvis open browser and search for YouTube
+Action:       Execute browser_search
+Tool:         browser_search {'query': 'youtube'}
+Result:       Searched Google for 'youtube'
+Verification: Verified: Browser navigated to search results for 'youtube'.
+----------------------------------------
+[21:10:23]
+Command:      open the browser and search for chat GPT
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'browser and search for chat gpt'}
+Result:       Attempted to open browser and search for chat gpt, but the process was not detected within timeout.
+Verification: Action indicated failure during execution.
+----------------------------------------
+[21:10:29]
+Command:      open the browser and search for chat GPT
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'browser and search for chat gpt'}
+Result:       Attempted to open browser and search for chat gpt, but the process was not detected within timeout.
+Verification: Action indicated failure during execution.
+----------------------------------------
+[21:10:36]
+Command:      open the browser and search for chat GPT
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'browser and search for chat gpt'}
+Result:       Attempted to open browser and search for chat gpt, but the process was not detected within timeout.
+Verification: Action indicated failure during execution.
+----------------------------------------
+[21:10:52]
+Command:      open the browser and search for AI agents
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'browser and search for ai agents'}
+Result:       Attempted to open browser and search for ai agents, but the process was not detected within timeout.
+Verification: Action indicated failure during execution.
+----------------------------------------
+[21:10:59]
+Command:      open the browser and search for AI agents
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'browser and search for ai agents'}
+Result:       Attempted to open browser and search for ai agents, but the process was not detected within timeout.
+Verification: Action indicated failure during execution.
+----------------------------------------
+[21:11:05]
+Command:      open the browser and search for AI agents
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'browser and search for ai agents'}
+Result:       Attempted to open browser and search for ai agents, but the process was not detected within timeout.
+Verification: Action indicated failure during execution.
+----------------------------------------
+[21:11:18]
+Command:      open browser and search for
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'browser'}
+Result:       Successfully launched browser.
+Verification: Verification check: Process 'browser' status unconfirmed but launched.
+----------------------------------------
+[21:11:18]
+Command:      open browser and search for
+Action:       Execute browser_search
+Tool:         browser_search {'query': 'for'}
+Result:       Searched Google for 'for'
+Verification: Verified: Browser navigated to search results for 'for'.
+----------------------------------------
+[21:21:34]
+Command:      open YouTube and play Aaya Sher song
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'chrome'}
+Result:       Chrome is already open and brought to front.
+Verification: Verified: Process 'chrome' is running.
+----------------------------------------
+[21:21:34]
+Command:      open YouTube and play Aaya Sher song
+Action:       Execute youtube_search
+Tool:         youtube_search {'query': 'open youtube and play aaya sher song'}
+Result:       Searched YouTube for 'open youtube and play aaya sher song'
+Verification: Verified: Browser navigated to search results for 'open youtube and play aaya sher song'.
+----------------------------------------
+[21:28:54]
+Command:      open YouTube and play Nenu butterflies
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'chrome'}
+Result:       Successfully launched chrome.
+Verification: Verified: Process 'chrome' is running.
+----------------------------------------
+[21:28:54]
+Command:      open YouTube and play Nenu butterflies
+Action:       Execute youtube_search
+Tool:         youtube_search {'query': 'open youtube and play nenu butterflies'}
+Result:       Searched YouTube for 'open youtube and play nenu butterflies'
+Verification: Verified: Browser navigated to search results for 'open youtube and play nenu butterflies'.
+----------------------------------------
+[21:31:10]
+Command:      open browser and search YouTube
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'browser'}
+Result:       Successfully launched browser.
+Verification: Verification check: Process 'browser' status unconfirmed but launched.
+----------------------------------------
+[21:31:11]
+Command:      open browser and search YouTube
+Action:       Execute browser_search
+Tool:         browser_search {'query': 'youtube'}
+Result:       Searched Google for 'youtube'
+Verification: Verified: Browser navigated to search results for 'youtube'.
+----------------------------------------
+[21:31:23]
+Command:      play Kalyani song
+Action:       Execute play_media
+Tool:         play_media 
+Result:       Media has been resumed.
+Verification: Action completed and verified successfully.
+----------------------------------------
+[21:31:43]
+Command:      play Kalyani song in YouTube
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'chrome'}
+Result:       Successfully launched chrome.
+Verification: Verified: Process 'chrome' is running.
+----------------------------------------
+[21:31:43]
+Command:      play Kalyani song in YouTube
+Action:       Execute youtube_search
+Tool:         youtube_search {'query': 'play kalyani song in youtube'}
+Result:       Searched YouTube for 'play kalyani song in youtube'
+Verification: Verified: Browser navigated to search results for 'play kalyani song in youtube'.
+----------------------------------------
+[21:53:05]
+Command:      YouTube and play jagal Jamana song
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'chrome'}
+Result:       Successfully launched chrome.
+Verification: Verified: Process 'chrome' is running.
+----------------------------------------
+[21:53:05]
+Command:      YouTube and play jagal Jamana song
+Action:       Execute youtube_search
+Tool:         youtube_search {'query': 'youtube and play jagal jamana song'}
+Result:       Searched YouTube for 'youtube and play jagal jamana song'
+Verification: Verified: Browser navigated to search results for 'youtube and play jagal jamana song'.
+----------------------------------------
+[21:58:10]
+Command:      Open Chrome
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'chrome'}
+Result:       Attempted to open chrome, but the process was not detected within timeout.
+Verification: Action indicated failure during execution.
+----------------------------------------
+[21:58:16]
+Command:      Open Chrome
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'chrome'}
+Result:       Attempted to open chrome, but the process was not detected within timeout.
+Verification: Action indicated failure during execution.
+----------------------------------------
+[21:58:23]
+Command:      Open Chrome
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'chrome'}
+Result:       Attempted to open chrome, but the process was not detected within timeout.
+Verification: Action indicated failure during execution.
+----------------------------------------
+[21:58:37]
+Command:      Open Chrome and search for AI agents
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'chrome'}
+Result:       Attempted to open chrome, but the process was not detected within timeout.
+Verification: Action indicated failure during execution.
+----------------------------------------
+[21:58:43]
+Command:      Open Chrome and search for AI agents
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'chrome'}
+Result:       Attempted to open chrome, but the process was not detected within timeout.
+Verification: Action indicated failure during execution.
+----------------------------------------
+[21:58:50]
+Command:      Open Chrome and search for AI agents
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'chrome'}
+Result:       Attempted to open chrome, but the process was not detected within timeout.
+Verification: Action indicated failure during execution.
+----------------------------------------
+[22:08:36]
+Command:      Open Chrome
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'chrome'}
+Result:       Attempted to open chrome, but the process was not detected within timeout.
+Verification: Action indicated failure during execution.
+----------------------------------------
+[22:08:43]
+Command:      Open Chrome
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'chrome'}
+Result:       Attempted to open chrome, but the process was not detected within timeout.
+Verification: Action indicated failure during execution.
+----------------------------------------
+[22:08:50]
+Command:      Open Chrome
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'chrome'}
+Result:       Attempted to open chrome, but the process was not detected within timeout.
+Verification: Action indicated failure during execution.
+----------------------------------------
+[22:09:04]
+Command:      Open Chrome and search for AI agents
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'chrome'}
+Result:       Attempted to open chrome, but the process was not detected within timeout.
+Verification: Action indicated failure during execution.
+----------------------------------------
+[22:09:10]
+Command:      Open Chrome and search for AI agents
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'chrome'}
+Result:       Attempted to open chrome, but the process was not detected within timeout.
+Verification: Action indicated failure during execution.
+----------------------------------------
+[22:09:21]
+Command:      Open Chrome and search for AI agents
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'chrome'}
+Result:       Attempted to open chrome, but the process was not detected within timeout.
+Verification: Action indicated failure during execution.
+----------------------------------------
+[22:09:37]
+Command:      Open YouTube, search for Python tutorials, open the second result and pause the video
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'chrome'}
+Result:       Attempted to open chrome, but the process was not detected within timeout.
+Verification: Action indicated failure during execution.
+----------------------------------------
+[22:09:44]
+Command:      Open YouTube, search for Python tutorials, open the second result and pause the video
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'chrome'}
+Result:       Attempted to open chrome, but the process was not detected within timeout.
+Verification: Action indicated failure during execution.
+----------------------------------------
+[22:09:50]
+Command:      Open YouTube, search for Python tutorials, open the second result and pause the video
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'chrome'}
+Result:       Attempted to open chrome, but the process was not detected within timeout.
+Verification: Action indicated failure during execution.
+----------------------------------------
+[22:09:58]
+Command:      Delete folder called 'test_danger_folder'
+Action:       Execute delete_file
+Tool:         delete_file {'path': 'test_danger_folder'}
+Result:       Blocked by permission/emergency stop
+Verification: Unexecuted
+ERROR:        User denied execution of high-risk action: delete_file
+----------------------------------------
+[22:10:10]
+Command:      Delete folder called 'test_danger_folder'
+Action:       Execute delete_file
+Tool:         delete_file {'path': 'test_danger_folder'}
+Result:       Deleted directory: test_danger_folder
+Verification: Verified: Target path deleted: True.
+----------------------------------------
+[22:10:22]
+Command:      Delete this file
+Action:       Execute delete_file
+Tool:         delete_file {'path': 'safety_test.txt'}
+Result:       Deleted file: safety_test.txt
+Verification: Verified: Target path deleted: True.
+----------------------------------------
+[22:10:22]
+Command:      Delete this file
+Action:       Execute delete_file
+Tool:         delete_file {'path': 'safety_test.txt'}
+Result:       Blocked by permission/emergency stop
+Verification: Unexecuted
+ERROR:        User denied execution of high-risk action: delete_file
+----------------------------------------
+[22:10:22]
+Command:      (None)
+Action:       Execute browser_search
+Tool:         browser_search {'query': 'python'}
+Result:       Blocked by permission/emergency stop
+Verification: Unexecuted
+ERROR:        Action aborted: JARVIS Emergency Stop is active.
+----------------------------------------
+[22:10:22]
+Command:      (None)
+Action:       Execute create_file
+Tool:         create_file {'path': 'test_sandbox\\sample.txt', 'content': 'Hello from JARVIS automated test suite.'}
+Result:       File created: sample.txt
+Verification: Verified: File 'sample.txt' exists on disk (size: 39 bytes).
+----------------------------------------
+[22:13:18]
+Command:      jarvis what is the news update today . jarvis search about the present day and give me the 7 updates in the voice format.
+Action:       Execute get_news_updates
+Tool:         get_news_updates {'count': 7, 'topic': None}
+Result:       Here are today's top 7 news updates, sir:
+First: Officials giving update on Cornell University rape investigation - watch live, reported by bbc.com.
+Second: Calls grow for US death penalty halt after 'torturous' botched execution of Christa Pike, reported by The Guardian.
+Third: 12 minutes of madness: How Flydubai pilot, passengers saved plane midfall, reported by aljazeera.com.
+Fourth: Top Democrats slam 'Trump's failing economic agenda' after weaker-than-expected jobs growth - US politics live, reported by The Guardian.
+Fifth: Trump administration begins mailing out $500 ACA refund checks. Here's what to know, reported by ABC7 Los Angeles.
+Sixth: JD Vance talks 2028 and how one Cornell student responded to rape accusation: Morning Rundown, reported by NBC News.
+And seventh: Trump administration is paying $1.6 million a week to keep Voice of America staff on leave, reported by washingtonpost.com.
+Those are the primary headlines for today, sir.
+Verification: Verified: Retrieved top live news updates for today.
+----------------------------------------
+[22:14:24]
+Command:      what is the news update today
+Action:       Execute get_news_updates
+Tool:         get_news_updates {'count': 7}
+Result:       Here are today's top 7 news updates, sir:
+First: Officials giving update on Cornell University rape investigation - watch live, reported by bbc.com.
+Second: Calls grow for US death penalty halt after 'torturous' botched execution of Christa Pike, reported by The Guardian.
+Third: 12 minutes of madness: How Flydubai pilot, passengers saved plane midfall, reported by aljazeera.com.
+Fourth: How Trump's obsession with 'rigged' voting machines spread across US government, reported by Reuters.
+Fifth: JD Vance talks 2028 and how one Cornell student responded to rape accusation: Morning Rundown, reported by NBC News.
+Sixth: Fires, tear gas and 2,000 arrests: France's student protests shut over 400 schools, reported by DW.com.
+And seventh: Trump Hit by Brutal Economic Bombshell as Election Looms, reported by The Daily Beast.
+Those are the primary headlines for today, sir.
+Verification: Verified: Retrieved top live news updates for today.
+----------------------------------------
+[22:16:20]
+Command:      what was the news update today
+Action:       Execute get_news_updates
+Tool:         get_news_updates {'count': 7, 'topic': None}
+Result:       Here are today's top 7 news updates, sir:
+First: Officials giving update on Cornell University rape investigation - watch live, reported by bbc.com.
+Second: Calls grow for US death penalty halt after 'torturous' botched execution of Christa Pike, reported by The Guardian.
+Third: 12 minutes of madness: How Flydubai pilot, passengers saved plane midfall, reported by Al Jazeera.
+Fourth: Top Democrats slam 'Trump's failing economic agenda' after weaker-than-expected jobs growth - US politics live, reported by The Guardian.
+Fifth: Trump administration begins mailing out $500 ACA refund checks. Here's what to know, reported by ABC7 Los Angeles.
+Sixth: JD Vance talks 2028 and how one Cornell student responded to rape accusation: Morning Rundown, reported by NBC News.
+And seventh: Trump administration is paying $1.6 million a week to keep Voice of America staff on leave, reported by washingtonpost.com.
+Those are the primary headlines for today, sir.
+Verification: Verified: Retrieved top live news updates for today.
+----------------------------------------
+[22:18:36]
+Command:      open YouTube and play Aaya Sher song
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'chrome'}
+Result:       Chrome is already open and brought to front.
+Verification: Verified: Process 'chrome' is running.
+----------------------------------------
+[22:18:36]
+Command:      open YouTube and play Aaya Sher song
+Action:       Execute youtube_search
+Tool:         youtube_search {'query': 'open youtube and play aaya sher song'}
+Result:       Searched YouTube for 'open youtube and play aaya sher song'
+Verification: Verified: Browser navigated to search results for 'open youtube and play aaya sher song'.
+----------------------------------------
+[22:32:09]
+Command:      open browser and search for
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'browser'}
+Result:       Attempted to open browser, but the process was not detected within timeout.
+Verification: Action indicated failure during execution.
+----------------------------------------
+[22:32:23]
+Command:      open browser and search for
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'browser'}
+Result:       Successfully launched browser.
+Verification: Verification check: Process 'browser' status unconfirmed but launched.
+----------------------------------------
+[22:32:23]
+Command:      open browser and search for
+Action:       Execute browser_search
+Tool:         browser_search {'query': 'for'}
+Result:       Searched Google for 'for'
+Verification: Verified: Browser navigated to search results for 'for'.
+----------------------------------------
+[22:34:41]
+Command:      Jarvis tell me the news update today
+Action:       Execute get_news_updates
+Tool:         get_news_updates {'count': 7, 'topic': None}
+Result:       Here are today's top 7 news updates, sir:
+First: Officials giving update on Cornell University rape investigation, reported by BBC.
+Second: Indian pilot tells PM Modi he opened flydubai cockpit door during attack, reported by Reuters.
+Third: Calls grow for US death penalty halt after 'torturous' botched execution of Christa Pike, reported by The Guardian.
+Fourth: 2,000 arrested in France as student protests escalate into violence, reported by NBC News.
+Fifth: Trump administration begins mailing out $500 ACA refund checks. Here's what to know, reported by ABC7 Los Angeles.
+Sixth: How Trump's obsession with 'rigged' voting machines spread across US government, reported by Reuters.
+And seventh: Weak jobs report is yet another headwind for Trump and Republicans ahead of midterms, reported by Yahoo Finance.
+Those are the primary headlines for today, sir.
+Verification: Verified: Retrieved top live news updates for today.
+----------------------------------------
+[22:36:45]
+Command:      open YouTube and play
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'chrome'}
+Result:       Chrome is already open and brought to front.
+Verification: Verified: Process 'chrome' is running.
+----------------------------------------
+[22:36:45]
+Command:      open YouTube and play
+Action:       Execute youtube_search
+Tool:         youtube_search {'query': 'open youtube and play'}
+Result:       Searched YouTube for 'open youtube and play'
+Verification: Verified: Browser navigated to search results for 'open youtube and play'.
+----------------------------------------
+[22:37:14]
+Command:      open YouTube and play
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'chrome'}
+Result:       Chrome is already open and brought to front.
+Verification: Verified: Process 'chrome' is running.
+----------------------------------------
+[22:37:14]
+Command:      open YouTube and play
+Action:       Execute youtube_search
+Tool:         youtube_search {'query': 'open youtube and play'}
+Result:       Searched YouTube for 'open youtube and play'
+Verification: Verified: Browser navigated to search results for 'open youtube and play'.
+----------------------------------------
+[22:44:39]
+Command:      open YouTube and play Aaya Sher
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'chrome'}
+Result:       Chrome is already open and brought to front.
+Verification: Verified: Process 'chrome' is running.
+----------------------------------------
+[22:44:39]
+Command:      open YouTube and play Aaya Sher
+Action:       Execute youtube_search
+Tool:         youtube_search {'query': 'open youtube and play aaya sher'}
+Result:       Searched YouTube for 'open youtube and play aaya sher'
+Verification: Verified: Browser navigated to search results for 'open youtube and play aaya sher'.
+----------------------------------------
+[23:00:10]
+Command:      open YouTube and play Kalyani song
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'chrome'}
+Result:       Chrome is already open and brought to front.
+Verification: Verified: Process 'chrome' is running.
+----------------------------------------
+[23:00:10]
+Command:      open YouTube and play Kalyani song
+Action:       Execute youtube_search
+Tool:         youtube_search {'query': 'open youtube and play kalyani song'}
+Result:       Searched YouTube for 'open youtube and play kalyani song'
+Verification: Verified: Browser navigated to search results for 'open youtube and play kalyani song'.
+----------------------------------------
+[23:08:16]
+Command:      open browser Wikipedia
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'browser wikipedia'}
+Result:       Attempted to open browser wikipedia, but the process was not detected within timeout.
+Verification: Action indicated failure during execution.
+----------------------------------------
+[23:08:25]
+Command:      open browser Wikipedia
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'browser wikipedia'}
+Result:       Attempted to open browser wikipedia, but the process was not detected within timeout.
+Verification: Action indicated failure during execution.
+----------------------------------------
+[23:08:42]
+Command:      open browser and search for
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'browser'}
+Result:       Browser is already open and brought to front.
+Verification: Verification check: Process 'browser' status unconfirmed but launched.
+----------------------------------------
+[23:08:42]
+Command:      open browser Wikipedia
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'browser wikipedia'}
+Result:       Attempted to open browser wikipedia, but the process was not detected within timeout.
+Verification: Action indicated failure during execution.
+----------------------------------------
+[23:08:43]
+Command:      open browser and search for
+Action:       Execute browser_search
+Tool:         browser_search {'query': 'for'}
+Result:       Searched Google for 'for'
+Verification: Verified: Browser navigated to search results for 'for'.
+----------------------------------------
+[23:09:11]
+Command:      open browser Wikipedia
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'browser wikipedia'}
+Result:       Attempted to open browser wikipedia, but the process was not detected within timeout.
+Verification: Action indicated failure during execution.
+----------------------------------------
+[23:09:17]
+Command:      open browser and search for Wikipedia search for
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'browser'}
+Result:       Successfully launched browser.
+Verification: Verification check: Process 'browser' status unconfirmed but launched.
+----------------------------------------
+[23:09:17]
+Command:      open browser and search for Wikipedia search for
+Action:       Execute browser_search
+Tool:         browser_search {'query': 'wikipedia search for'}
+Result:       Searched Google for 'wikipedia search for'
+Verification: Verified: Browser navigated to search results for 'wikipedia search for'.
+----------------------------------------
+[23:09:18]
+Command:      open browser Wikipedia
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'browser wikipedia'}
+Result:       Attempted to open browser wikipedia, but the process was not detected within timeout.
+Verification: Action indicated failure during execution.
+----------------------------------------
+[23:09:41]
+Command:      open browser Wikipedia
+Action:       Execute open_application
+Tool:         open_application {'app_name': 'browser wikipedia'}
+Result:       Attempted to open browser wikipedia, but the process was not detected within timeout.
+Verification: Action indicated failure during execution.
+----------------------------------------
